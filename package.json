@@ -1,0 +1,31 @@
+{
+  "name": "drizzle-poc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "migration:create": "pnpm exec drizzle-kit generate:pg"
+  },
+  "dependencies": {
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.31",
+    "@types/react-dom": "18.0.11",
+    "drizzle-orm": "^0.23.2",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "next": "13.2.4",
+    "pg": "^8.10.0",
+    "pg-native": "^3.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.6.6",
+    "drizzle-kit": "^0.17.1",
+    "tsx": "^3.12.6"
+  }
+}
